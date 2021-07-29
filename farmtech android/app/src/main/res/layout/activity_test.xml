@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test"
+    android:orientation="vertical"
+    android:background="@drawable/crop_dictionary">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/baseline_arrow_back_black_18dp"
+                android:onClick="back5"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:fontFamily="@font/hobostd"
+                android:text="Crop Dictionary"
+                android:textColor="#9C27B0"
+                android:textSize="40dp"
+                android:layout_marginTop="-30dp"/>
+
+            <Button
+                android:id="@+id/apple"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Apple"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                />
+
+
+            <Button
+                android:id="@+id/beans"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="-80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Beans"
+                android:textColor="#ffff"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/brinjal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="-80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Brinjal"
+                android:textColor="#ffff" />
+
+            <Button
+                android:id="@+id/capsicum"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Capsicum"
+                android:textColor="#ffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                />
+
+            <Button
+                android:id="@+id/chili"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Chili"
+                android:textColor="#ffff"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="-80dp"/>
+
+            <Button
+                android:id="@+id/cotton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:text="Cotton"
+                android:textColor="#fff"
+                android:layout_marginTop="-80dp"
+                android:layout_marginLeft="270dp"/>
+
+            <Button
+                android:id="@+id/cucumber"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Cucumber"
+                android:textColor="#fff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+
+                />
+
+            <Button
+                android:id="@+id/maize"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Maize"
+                android:textColor="#ffff"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="-80dp"
+                />
+
+            <Button
+                android:id="@+id/okra"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="OKRA"
+                android:textColor="#ffff"
+                android:layout_marginTop="-80dp"
+                android:layout_marginLeft="270dp"
+                 />
+
+            <Button
+                android:id="@+id/olive"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Olive"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                />
+
+            <Button
+                android:id="@+id/onion"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Onion"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                android:layout_marginTop="-80dp"
+                android:layout_marginLeft="150dp"/>
+
+            <Button
+                android:id="@+id/papaya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Papaya"
+                android:textColor="#ffff"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="-80dp"
+                 />
+
+            <Button
+                android:id="@+id/peanut"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Peanut"
+                android:textColor="#ffff"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"/>
+
+            <Button
+                android:id="@+id/peas"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Peas"
+                android:textColor="#ffff"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="-80dp"/>
+
+            <Button
+                android:id="@+id/potato"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:text="potato"
+                android:fontFamily="@font/hobostd"
+                android:textColor="#fff"
+                android:layout_marginTop="-80dp"
+                android:layout_marginLeft="270dp"
+                />
+
+            <Button
+                android:id="@+id/rice"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="rice"
+                android:textColor="#fff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/strawberry"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Strawberry"
+                android:textSize="11dp"
+                android:textColor="#ffff"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="-80dp"
+                />
+
+            <Button
+                android:id="@+id/sugar_cane"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/dict_button"
+                android:fontFamily="@font/hobostd"
+                android:text="Sugar cane"
+                android:textColor="#fff"
+                android:layout_marginTop="-80dp"
+                android:layout_marginLeft="270dp"
+                 />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

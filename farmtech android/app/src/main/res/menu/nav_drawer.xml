@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+    android:id="@+id/about"
+    android:title="About"/>
+
+
+    <item
+        android:id="@+id/crop"
+        android:title="Crop Dictionary"/>
+
+
+</group>
+
+    <item android:title="Key Features">
+        <menu>
+            <item android:id="@+id/soil"
+                android:title="Soil Moisture"/>
+            <item android:id="@+id/temp"
+                android:title="Humidity and Temperature"/>
+            <item android:id="@+id/air"
+                android:title="Air Quality"/>
+            <item android:id="@+id/light"
+                android:title="Light Intensity"/>
+        </menu>
+    </item>
+</menu>

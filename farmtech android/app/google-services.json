@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "68559527902",
+    "firebase_url": "https://farm-tech-2020.firebaseio.com",
+    "project_id": "farm-tech-2020",
+    "storage_bucket": "farm-tech-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68559527902:android:04e0d58328645dca8c474f",
+        "android_client_info": {
+          "package_name": "com.frostveins.farm_tech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68559527902-ak9ru85dmji6tjamp6h7pql99ph15r8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfn3Snih40YSSC7vFFjEG_7f4wpFbmPsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68559527902-ak9ru85dmji6tjamp6h7pql99ph15r8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

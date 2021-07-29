@@ -1,0 +1,13 @@
+{
+    "crops": {
+      "apple": {
+        "g_agent": "insect",
+        "e_flower": "bisexual",
+        "a_name": "Apple",
+        "f_pollination": "cross pollination",
+        "b_s_name": "Malus domestical ",
+        "c_soil": "Loam Soil",
+        "d_temp": "21-24C"
+      }
+    }
+  }
